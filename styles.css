@@ -13,7 +13,7 @@
   
   /*Hero, means attention grabber*/
   #top.hero{
-    background:  linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url("images/wbT2.gif") ;/*  <-- darken background   */
+    background:  linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url("images/wbT3.gif") ;/*  <-- darken background   */
     /*background-image:url("images/gif.gif")  /*  <-- image   */;
     background-size: cover;       /*Covers whole top with background*/
     background-position: center;
@@ -60,8 +60,8 @@
   display: flex;
   justify-content: center; /*Horizantle align*/ 
   text-align: center; /*Verticle align*/ 
-  gap: 500px;
-  z-index: 999;
+  gap: clamp(12px, 6vw, 40px);
+  z-index: 9999;
   
  }
   .linkHover {
@@ -71,6 +71,16 @@
      text-decoration: underline; 
   }
 
+  @media (max-width: 480px){
+    nav{
+      padding: 12px 10px;
+      gap: 16px;                  /* tighter spacing on very small phones */
+    }
+    nav a{
+      padding: 6px 8px;           /* bigger tap targets */
+      display: inline-block;
+    }
+  }
   .section {
   color: #e5e7eb;
  /* border: 1px solid #e5e7eb;
@@ -350,4 +360,5 @@
 @media (max-width: 640px){
   .card {width: 220px;}
 }
+
 
