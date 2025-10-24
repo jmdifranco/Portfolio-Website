@@ -13,7 +13,7 @@
   
   /*Hero, means attention grabber*/
   #top.hero{
-    background:  linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url("images/wbT3.gif") ;/*  <-- darken background   */
+    background:  linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75)), url("wbT3.gif") ;/*  <-- darken background   */
     /*background-image:url("images/gif.gif")  /*  <-- image   */;
     background-size: cover;       /*Covers whole top with background*/
     background-position: center;
@@ -360,5 +360,6 @@
 @media (max-width: 640px){
   .card {width: 220px;}
 }
+
 
 
