@@ -1,0 +1,277 @@
+<!doctype html> 
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8"/>
+   <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+   <title>John's Portfolio</title>
+   <!-- Load external CSS file that sits next to index.html -->
+  <link rel="stylesheet" href="styles.css"> <!--imports style.css file-->
+</head>
+
+<body>
+
+ <!--Top Navigation Bar--> 
+  <nav>
+    <a class = "linkHover" href = "#top" style="color: #e5e7eb;">Home</a>
+    <a class = "linkHover" href = "#about" style="color: #e5e7eb;">About me</a>
+    <a class = "linkHover" href = "#projects" style="color: #e5e7eb;">Projects</a>
+    <a class = "linkHover" href = "#contact" style="color: #e5e7eb;">Contact me</a>
+  </nav> 
+
+  <!--Top title area-->
+  <header id = "top" class = "hero section" >
+    <div class = "hero-inner">
+      <h1>Welcome to my Portfolio!</h1>
+      <p style = "text-align: center;">An Overview of John DiFranco's Professional Profile</p>
+      <a class = "hero-cta" href="#projects">See projects</a>
+    </div>
+  </header>
+
+  <!--About me Secion-->
+  <div class = "section" id = "about">
+    <h2> About me</h2>
+     <div class = "about-container">
+        
+        <div class = "about-card abou-top">
+          <p>I am an undergraduate student pursuing a degree in Electrical and Computer Engineering. 
+            From a young age, I've been deeply fascinated by technology and naturally inclined toward understanding how things work. 
+            I'm driven to develop the skills and knowledge necessary to solve complex problems and innovate in the field I want to be in. 
+            I have a strong passion for continuous learning and often take the initiative to research new topics and expand my understanding beyond the classroom.
+          </p>
+        </div>
+        
+        <div class = "about-grid">
+            <div class = "about-card" >
+              <h3> Skills</h3>
+              <ul class = " about-list">
+                
+                <li>Proficent in Greek and Spanish</li> <!-- list item of skills-->
+                <li>Experienced with Computer Hardware and Software</li> 
+                <li>Understanding of basic circuitry</li> 
+                <li>Efficent in 3D design and printing</li> 
+                <li>Competent with AutoCad, Fusion360, MatLab, and blender</li>
+                <li>Adept in back-end coding of Java & Python</li> 
+                <li>Familiar in front end coding of HTML, JavaScript, and CSS</li> 
+                <li>Basic knowledge in using AI APIs and making large langauge models</li>
+                <li>Trained in Microsoft's office software (e.g., Word, Excel, Powerpoint)  </li>
+
+              </ul>
+
+              <h3><br>Soft-Skills</h3>
+                <ul class = " about-list">
+                
+                  <li>Able to handle heavy work loads</li> <!-- list item of skills-->
+                  <li>Efficient in a high intensity competitive enviornment</li> 
+                  <li>Collaborative well with others</li> 
+                  <li>Detail oriented with excellent problem solving abilities</li> 
+                  
+
+                </ul>
+              
+            </div>
+
+           
+            <div class = "about-card" >
+              <h3>Experience</h3>
+              <ul class = " about-list">
+                <li>NSF Noyce Intership Program in Math Education</li>
+                <p style = "translate: 30px; padding-right: 55px; text-align: left;">- Collaborated with peers to learn how effective our education in STEM can affect those around us.</p>
+                <li>Computer Science and Engineering Club</li>
+                <p style = "translate: 30px; padding-right: 55px; text-align: left;">- Connected with others who had similar intrest to further my learning in my field</p>
+                <li>Completed various projects of intrest</li>
+                <p style = "translate: 30px; padding-right: 55px; text-align: left;">- Researched relevent information that helped finish projects and ultimatly led to a greater understanding in topics learned in school  </p>
+
+              </ul>
+            </div>
+        </div>  
+     </div>
+
+  </div>
+
+  <!--Projects Section-->
+  <section class = "section" id = "projects">
+    <h2>Projects</h2>
+    <div class = "carousel" aria-label="Projects carousel">
+     
+    
+      <div class = "carousel-viewport">
+        <ul class = "carousel-track" id = "project-track"> <!-- ul = unordered list -->
+          <li class = "card" >                             <!-- li = list item -->
+            <h3>Project 1: OpenAI API chat bot that speaks to you</h3>
+            <!--<img src = "images/ezgif.com-gif-maker.gif" width="300" >-->
+            <p>Developed a Java program that connects with OpenAI's ChatGPT API to generate and audibly present AI responses.</p>
+            <img src = "images/ChatGPTLogo.PNG" width = "100">
+            <a href = "#project1-details" class = "see-more">See more</a>
+          </li>
+
+          <li class = "card" >
+            <h3>Project 2: Assembled and configured custom personal computers</h3>
+            <p>Conducted research to construct and fix any computer providing a greater understanding of both hardware and software.</p>
+            <img src = "images/PCbuild.png" width="100">
+            <a href = "#project2-details" class =  "see-more">See more</a>
+          </li>
+
+          <li class = "card" >
+            <h3>Project 3: This Portfolio Website</h3>
+            <p>Learned HTML, CSS, and JavaScript to build the website from scratch applying techniques learned in class with Java.</p>
+            <img src = "images/WebsiteTitlePage.PNG" width="100">
+            <a href = "#project3-details" class = "see-more">See more</a>
+          </li>
+          
+          <!-- Other cards
+          <li class = "card" style = "display: grid; place-items: center;" >
+            <h3>More Projects Soon!</h3>
+            
+            <a href = "#project4-details" class = "see-more">See more</a>
+          </li>-->
+          
+          <!--
+          <li class = "card" >
+            <h3>Project 5</h3>
+            <p>p5</p>
+            <a href = "#project5-details" class = "see-more">See more</a>
+          </li> -->
+        </ul>
+      </div>
+      
+      <button class = "carousel-btn is-left" aria-label = "Previous Project" title = "Previous Project">
+        &#10094; <!--  < left arrow symbol   -->
+      </button>
+      <button class = "carousel-btn is-right" aria-label = "Next Project" title = "Next Project">
+        &#10095; <!--  > right arrow symbol   -->
+      </button>
+    </div>
+  </section>
+
+  <!--Hidden project sections-->
+
+  <!--Project 1-->
+  <section class = "project-details" id="project1-details">
+    <h2>Project 1: OpenAI API chat bot that speaks to you</h2>
+    
+    <div class = "project-details-body">
+        <p>
+          After learning Object-Oriented Programming and exploring the growing capabilities of the ChatGPT API,
+          I decided to develop a Java program that accepts user prompts and generates AI-powered spoken responses. 
+          Through research, I learned how to connect to the ChatGPT API using an HTTP request within my IDE and integrated a free voice synthesis library called FreeTTS to vocalize the responses.
+          I implemented methods to handle file reading and writing skills learned in class while managing API communication and audio output. 
+          This project taught me how to incorporate existing AI tools into custom applications while reinforcing my understanding of object-oriented programming and file I/O operations. 
+          (The Code for this software is on my GitHub)
+        </p>
+        <img src = "images/ChatGPTLogo.PNG" alt = "ChatGPT logo" width="100" style = "border-radius: 50px;">
+    </div>   
+      <a href ="#projects" class = "back-to-projects">Back to Projects</a>
+  </section>
+
+  <!--Project 2-->
+  <section class = "project-details" id="project2-details">
+    <h2>Project 2: Assembled and configured custom personal computers</h2>
+    <div class = "project-details-body">
+        <p>
+        I've always been fascinated by how things work, especially the technology around me. When I first began using computers, I was determined to build my own from scratch. 
+        I saved for the components, researched different configurations, and carefully assembled the system to meet my goals. 
+        Through this process, I gained an in-depth understanding of both hardware and software. 
+        Along the way, I encountered many errors and challenges, but each one became an opportunity to learn more. 
+        The knowledge from my circuits class helped me troubleshoot the hardware safely and effectively. 
+        Having now built multiple computers, I've strengthened my ability to connect hardware and software concepts in a practical way.
+        </p>
+        <img src = "images/PCbuild.png" alt = "Inside PC" width="100" style = "border-radius: 50px;">
+    </div>
+    <a href ="#projects" class = "back-to-projects">Back to Projects</a>
+  </section>
+
+  <!--Project 3-->
+  <section class = "project-details" id="project3-details">
+    <h2>Project 3: This Portfolio Website</h2>
+    <div class = "project-details-body">
+        <p>
+          Through my involvement in my Computer Science Club, I was introduced to web development and decided to create a personal portfolio website. 
+          My goal was not only to showcase my accomplishments but also to gain hands on experience with HTML, CSS, and JavaScript. 
+          Using free department textbooks and online resources, I began teaching myself each language. 
+          HTML came easily, and JavaScript felt familiar thanks to my background in Java; however, learning CSS required more understanding then the other two languages. 
+          Over time, I successfully integrated all three, gaining a strong understanding of front end development and website design. 
+          I plan to continue expanding my portfolio site and advancing my skills in front-end technologies.
+        </p>
+        <img src = "images/WebsiteTitlePage.PNG" alt = "ChatGPT logo" width="100" style = "border-radius: 50px;">
+    </div>
+    <a href ="#projects" class = "back-to-projects">Back to Projects</a>
+  </section>
+
+  <!--Project 4
+  <section class = "project-details" id="project4-details">
+    <h2>Comming soon...</h2>
+    <a href ="#projects" class = "back-to-projects">Back to Projects</a>
+  </section>
+
+  Project 5
+  <section class = "project-details" id="project5-details">
+    <h2>Coming soon...</h2>
+    <a href ="#projects" class = "back-to-projects">Back to Projects</a>
+  </section>-->
+
+
+
+  <!--Contact section-->
+  <div class = "section" id = "contact">
+    <h2>Contacts</h2>
+    <h3 style ="text-align: center;" > 
+      Check out my <br>
+      <a class = "linkHover" href="https://github.com/jmdifranco" target = "_blank" style="color:#00bfa6;  ">
+      GitHub</a>
+      
+      <a class = "linkHover" href ="https://www.linkedin.com/in/john-difranco-4bb667270/" target = "_blank"  style="color:#00bfa6;">
+      Linkedin
+      </a>
+    </h3>   <!-- A link href = site, target = opens in new tab -->
+      
+      <!-- Backend button for resume will fix another time
+       <button id = btn class="backendBtn">Get Resume</button>  
+       <p id="response"></p> 
+      -->
+
+  </div>
+
+  <!-- Calls source code for project carousel -->
+  <script src = "ProjectCarousel.js"></script>
+  <script>
+  //intializes the carousel on page load
+    document.addEventListener("DOMContentLoaded", () => {
+      const carousel= new Carousel({
+        trackSelector: ".carousel-track", viewportSelector: ".carousel-viewport",
+        prevSelector: ".carousel-btn.is-left", nextSelector: ".carousel-btn.is-right",
+      });
+    });
+
+  </script>
+
+
+  <!--Getting Back end 
+ 
+  <script>
+    document.getElementById("Btn").addEventListener("click",async ()=> {
+      const res = await fetch("http://localhost:8080/JDportfolio");
+      const text = await res.text();
+      document.getElementById("response").innerText=text;
+    });
+   
+   
+    /*
+    document.querySelectorAll("tpL").forEach(el => {
+      el.addEventListener("click", () => {
+        const targetId = el.getAttribute("data-target"); // read data-target value
+        const target = document.getElementById(targetId); // find that element
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" }); // smooth scroll
+        }
+      });
+    });                 <--- code for custom anchors      */
+  </script>-->
+
+
+
+
+</body>
+
+
+</html>
