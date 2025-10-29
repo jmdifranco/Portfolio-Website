@@ -58,7 +58,7 @@
   padding: 10px 10px; 
   margin: 0px 0px 0px; 
   display: flex;
-  justify-content: space-bet; /* Responsive spacing*/ 
+  justify-content: space-between; /* Responsive spacing*/ 
   text-align: center; /*Verticle align*/ 
   gap: 24px; 
   z-index: 9999;
@@ -437,6 +437,7 @@
   background-color: #0f0f0f;
   
 }*/
+
 
 
 
